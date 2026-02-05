@@ -71,27 +71,39 @@
 					<p>Book Title: <input name="booktitle" type="text"></p>
 					<p>Author: 
 						<select name="authors" id="">
-							<?php
-								//include("dbconnect.php");
-								//$query = "SELECT * FROM 'books'";
-								//$result = mysql_query($query);
-								
-								//while($row=mysql_fetch_array($result))
-								//echo '<option value="' . $row[id] . '">' . $row[firstname] //$row[lastname]"</option>";
-								//
-							?>
+							
+							<option value="5">Neil Gaiman</option>
+							<option value="6">Terry Pratchett</option>
+							<option value="8">Erin Morgenstern</option>
+							<option value="13">David Mitchell</option>
+							<option value="7">V.E. Schwab</option>
+							<option value="14">Stephanie Garber</option>
+							<option value="12">Andrew Rowe</option>
+							<option value="10">Amanda Foody</option>
+							<option value="11">Sharon Shinn</option>
+							<option value="9">George R. R. Martin</option>
+							<!---
 							<option value="1">Sally Meyers</option>
 							<option value="2">George Smith</option>
 							<option value="3">Peter Gabriel</option>
 							<option value="4">Dale Mercer</option>
+							--->
 						</select>
 					</p>
 					
 					<p>Types:
 						<select name="types" id="">
+							<option value="4">Fantasy</option>
+							<option value="13">Humour</option>
+							<option value="1">History</option>
+							<option value="3">Science Fiction</option>
+							<option value="6">Mystery</option>
+							<option value="7">Royalty</option>
+							<!---
 							<option value="1">History</option>
 							<option value="2">Suspense</option>
 							<option value="3">Science Fiction</option>
+							--->
 						</select>
 					</p>
 					<input name="submit" type="submit" value="Add">
